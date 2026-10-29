@@ -2,13 +2,19 @@
   "name": "gefina",
   "description": "Sistema de gestão de contas a receber.",
   "version": "0.0.0",
-  "author": "Alex Bessa",
+  "author": "pietroZxZ",
   "scripts": {
     "check": "biome check ./",
     "fix": "biome check --write ./",
     "fix:unsafe": "biome check --write --unsafe ./"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.2"
+    "@biomejs/biome": "2.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   }
 }
